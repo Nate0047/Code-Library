@@ -1,0 +1,67 @@
+---
+title: "fkexdashboard build"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+# Landing Page
+
+Column {data-width=250}
+-----------------------------------------------------------------------
+
+### Left
+
+```{r}
+
+```
+
+Column {data-width=250}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart D
+
+```{r}
+
+```
+
+
+# Next Page
+
+Column {data-width=100}
+-----------------------------------------------------------------------
+
+### Small Chart
+
+```{r}
+
+```
+
+Column {data-width=900}
+-----------------------------------------------------------------------
+
+### Big Chart
+
+```{r}
+
+```
